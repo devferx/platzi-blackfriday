@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 
-const NavStyled = styled.nav`
+export const NavStyled = styled.nav`
   height: 52px;
   display: flex;
   align-items: center;
@@ -9,26 +9,26 @@ const NavStyled = styled.nav`
   box-sizing: border-box;
 `
 
-const NavLogo = styled.nav`
+export const NavLogo = styled.nav`
   display: flex;
   align-items: center;
 `
 
-const LogoImage = styled.img`
+export const LogoImage = styled.img`
   width: 25px;
   margin-right: 5px;
 `
 
-const LogoText = styled.img`
+export const LogoText = styled.img`
   height: 19px;
 `
 
-const NavActions = styled.menu`
+export const NavActions = styled.menu`
   display: flex;
   align-items: center;
 `
 
-const NavLinks = styled.ul`
+export const NavLinks = styled.ul`
   display: flex;
   list-style: none;
   padding: 0;
@@ -39,7 +39,7 @@ const NavLinks = styled.ul`
   }
 `
 
-const NavLink = styled.li`
+export const NavLink = styled.li`
   a {
     margin-right: 17px;
     font-size: 14px;
@@ -49,7 +49,7 @@ const NavLink = styled.li`
   }
 `
 
-const BuyAction = styled.a`
+export const BuyAction = styled.a`
   text-decoration: none;
   color: black;
   font-size: 14px;
@@ -57,7 +57,7 @@ const BuyAction = styled.a`
   cursor: pointer;
 `
 
-const LoginButton = styled.button`
+export const LoginButton = styled.button`
   width: 100px;
   height: 30px;
   border: none;
@@ -73,15 +73,3 @@ const LoginButton = styled.button`
     box-shadow: none;
   }
 `
-
-export {
-  NavStyled,
-  NavLogo,
-  LogoImage,
-  LogoText,
-  NavActions,
-  NavLinks,
-  NavLink,
-  BuyAction,
-  LoginButton,
-}
