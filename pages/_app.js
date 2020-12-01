@@ -11,6 +11,7 @@ function MyApp({ Component, pageProps }) {
           styles={css`
             body {
               margin: 0;
+              background-color: #fffcf9;
               font-family: sans-serif;
             }
           `}
