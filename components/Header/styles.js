@@ -18,5 +18,5 @@ export const Title1 = styled.h1`
   letter-spacing: 0;
   margin-bottom: 1rem;
   font-weight: 1000;
-  width: 75%;
+  width: 85%;
 `
