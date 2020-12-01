@@ -1,15 +1,5 @@
 import React from 'react'
-import styled from '@emotion/styled'
-
-const VideoContainer = styled.div`
-  height: 100%;
-  display: flex;
-  align-items: center;
-`
-
-const VideoStyled = styled.video`
-  width: 100%;
-`
+import { VideoContainer, VideoStyled } from './styles'
 
 export const Video = () => {
   return (
