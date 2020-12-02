@@ -7,7 +7,15 @@ export const FormContainer = styled.form`
   flex-direction: column;
 `
 
+export const PricingLabel = styled.div`
+  color: #23003f;
+  font-size: 38px;
+  font-weight: 800;
+  text-align: center;
+`
+
 export const InformationLabel = styled.div`
+  margin-top: 0.8em;
   background-color: #f8f2e9;
   color: #55485f;
   padding: 0.6rem 1rem;

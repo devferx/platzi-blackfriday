@@ -3,10 +3,16 @@ import { dataContext } from '../../context/dataContext'
 import { formContext } from '../../context/formContext'
 import { Header } from '../Header'
 import { PricingSelector } from '../PricingSelector'
-import { FormContainer, InformationLabel, Input, Button } from './styles'
+import {
+  FormContainer,
+  PricingLabel,
+  InformationLabel,
+  Input,
+  Button,
+} from './styles'
 
 export const Form = () => {
-  const { description } = useContext(dataContext)
+  const { description, pricing } = useContext(dataContext)
   const { formData } = useContext(formContext)
   const formRef = useRef(null)
 
@@ -19,6 +25,9 @@ export const Form = () => {
     <FormContainer ref={formRef} onSubmit={handleSubmit}>
       <Header />
       <PricingSelector />
+      <PricingLabel>
+        {formData.isExpertPlus ? pricing.now : pricing.expert}
+      </PricingLabel>
       <InformationLabel>
         {formData.isExpertPlus ? description.expertPlus : description.expert}
       </InformationLabel>
