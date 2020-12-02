@@ -7,6 +7,13 @@ export const FormContainer = styled.form`
   flex-direction: column;
 `
 
+export const InformationLabel = styled.div`
+  background-color: #f8f2e9;
+  color: #55485f;
+  padding: 0.6rem 1rem;
+  border-radius: 13px;
+`
+
 export const Input = styled.input`
   padding: 1rem;
   background-color: #f5f0ec;

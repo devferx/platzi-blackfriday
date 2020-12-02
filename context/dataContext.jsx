@@ -19,6 +19,12 @@ const data = {
     monthly: 'Bs140',
     now: 'Bs1.690',
   },
+  description: {
+    expertPlus:
+      'Acceso a todos los cursos, Escuelas y certificados para 2 personas en un solo plan a un precio especial anual.',
+    expert:
+      'El mejor precio del plan anual de Platzi con acceso a mas de 700 cursos, Escuelas y sus actualizaciones.',
+  },
 }
 
 export const DataContextProvider = ({ children }) => (
