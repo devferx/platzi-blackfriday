@@ -7,6 +7,10 @@ export const Title3 = styled.h3`
   letter-spacing: 0.97px;
   font-weight: 800;
   font-size: 15px;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
 `
 
 export const Title1 = styled.h1`
@@ -19,4 +23,10 @@ export const Title1 = styled.h1`
   margin-bottom: 1rem;
   font-weight: 1000;
   width: 85%;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    font-size: 32px;
+    width: 100%;
+  }
 `

@@ -6,4 +6,8 @@ export const ContainerStyled = styled.main`
   grid-template-columns: 2fr 3fr;
   max-width: 1250px;
   margin: 0 auto;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `
